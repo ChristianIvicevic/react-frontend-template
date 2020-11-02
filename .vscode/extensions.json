@@ -1,0 +1,20 @@
+{
+  // List of extensions which should be recommended for users of this workspace.
+  "recommendations": [
+    "christian-kohler.path-intellisense",
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "mikestead.dotenv",
+    "mrmlnc.vscode-postcss-sorting",
+    "mrmlnc.vscode-scss",
+    "msjsdiag.debugger-for-chrome",
+    "pflannery.vscode-versionlens",
+    "richie5um2.vscode-sort-json",
+    "stkb.rewrap",
+    "tyriar.sort-lines",
+    "visualstudioexptteam.vscodeintellicode"
+  ],
+  // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
+  "unwantedRecommendations": []
+}

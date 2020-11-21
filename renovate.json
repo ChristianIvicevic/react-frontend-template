@@ -10,10 +10,6 @@
   ],
   "packageRules": [
     {
-      "packageNames": ["node-sass"],
-      "allowedVersions": "<5"
-    },
-    {
       "updateTypes": ["minor", "patch", "pin", "digest"],
       "automerge": true
     }

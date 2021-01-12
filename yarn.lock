@@ -7700,10 +7700,10 @@ node-releases@^1.1.61:
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.64.tgz#71b4ae988e9b1dd7c1ffce58dd9e561752dfebc5"
   integrity sha512-Iec8O9166/x2HRMJyLLLWkd0sFFLrFNy+Xf+JQfSQsdBJzPcHpNl3JQ9gD4j+aJxmCa25jNsIbM4bmACtSbkSg==
 
-"node-sass@npm:sass@1.32.3":
-  version "1.32.3"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.32.3.tgz#045755b8b4e2d924408c897bcf24f873defc66ee"
-  integrity sha512-iJ+rkT0f00GCo/yO8gskzC/12QDdtwyZGFip4nRt3MstRetldRB7/k8gs55Zm5tfhuNDYfHjR5CyWLc8kE8gYg==
+"node-sass@npm:sass@1.32.4":
+  version "1.32.4"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.32.4.tgz#308bf29dd7f53d44ae4f06580e9a910ad9aa411e"
+  integrity sha512-N0BT0PI/t3+gD8jKa83zJJUb7ssfQnRRfqN+GIErokW6U4guBpfYl8qYB+OFLEho+QvnV5ZH1R9qhUC/Z2Ch9w==
   dependencies:
     chokidar ">=2.0.0 <4.0.0"
 

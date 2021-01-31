@@ -1,7 +1,8 @@
 {
   "env": {
     "browser": true,
-    "node": true
+    "node": true,
+    "jest": true
   },
   "extends": [
     "plugin:react/recommended",
@@ -9,6 +10,7 @@
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "prettier/@typescript-eslint",
+    "plugin:jest/recommended",
     "plugin:prettier/recommended"
   ],
   "parser": "@typescript-eslint/parser",
@@ -20,7 +22,7 @@
     "project": "./tsconfig.eslint.json",
     "sourceType": "module"
   },
-  "plugins": ["react", "@typescript-eslint", "react-hooks", "prettier"],
+  "plugins": ["react", "@typescript-eslint", "jest", "react-hooks", "prettier"],
   "rules": {
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
@@ -46,6 +48,7 @@
     ],
     "react/jsx-one-expression-per-line": "off",
     "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off",
     "react/require-default-props": [
       "error",
       {

@@ -1,4 +1,3 @@
-import React from 'react';
 import logo from 'ui/logo.svg';
 
 export const App = () => (

@@ -1,7 +1,7 @@
 import 'react-app-polyfill/ie11';
 import 'react-app-polyfill/stable';
 
-import React from 'react';
+import { StrictMode } from 'react';
 import ReactDOM from 'react-dom';
 
 import 'index.scss';
@@ -9,8 +9,8 @@ import 'index.scss';
 import { App } from 'ui/app';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <StrictMode>
     <App />
-  </React.StrictMode>,
+  </StrictMode>,
   document.getElementById('root'),
 );

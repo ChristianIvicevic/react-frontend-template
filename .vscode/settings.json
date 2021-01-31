@@ -12,9 +12,7 @@
     "**/CVS": true,
     "**/node_modules": true
   },
-  "postcssSorting.config": {
-    "properties-order": "alphabetical"
-  },
+  "npm.packageManager": "yarn",
   "typescript.preferences.importModuleSpecifier": "non-relative",
   "typescript.preferences.quoteStyle": "single",
   "typescript.preferences.useAliasesForRenames": false,

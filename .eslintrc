@@ -26,6 +26,7 @@
   "rules": {
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-use-before-define": "off",
     "@typescript-eslint/strict-boolean-expressions": "error",
     "import/extensions": [
       "error",
@@ -37,6 +38,18 @@
     ],
     "import/no-default-export": "error",
     "import/prefer-default-export": "off",
+    "no-restricted-imports": [
+      "error",
+      {
+        "paths": [
+          {
+            "message": "Please import from styled-components/macro.",
+            "name": "styled-components"
+          }
+        ],
+        "patterns": ["!styled-components/macro"]
+      }
+    ],
     "prettier/prettier": "error",
     "react-hooks/exhaustive-deps": "warn",
     "react-hooks/rules-of-hooks": "error",

@@ -4,6 +4,7 @@
     "dbaeumer.vscode-eslint",
     "editorconfig.editorconfig",
     "esbenp.prettier-vscode",
+    "jpoissonnier.vscode-styled-components",
     "mikestead.dotenv",
     "msjsdiag.debugger-for-chrome",
     "visualstudioexptteam.vscodeintellicode"

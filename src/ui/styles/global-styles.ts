@@ -1,5 +1,6 @@
-@import '~normalize.css/normalize.css';
+import { createGlobalStyle } from 'styled-components/macro';
 
+export const GlobalStyles = createGlobalStyle`
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -13,5 +14,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-@import 'ui/_app.scss';
+`;

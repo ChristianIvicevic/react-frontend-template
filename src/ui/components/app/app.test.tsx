@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import { App } from 'ui/app';
+import { App } from 'ui/components/app/app';
 
 describe('App component', () => {
   it('renders learn react link', () => {

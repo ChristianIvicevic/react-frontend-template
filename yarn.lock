@@ -10867,10 +10867,10 @@ ts-pnp@1.2.0, ts-pnp@^1.1.6:
   resolved "https://registry.yarnpkg.com/ts-pnp/-/ts-pnp-1.2.0.tgz#a500ad084b0798f1c3071af391e65912c86bca92"
   integrity sha512-csd+vJOb/gkzvcCHgTGSChYpy5f1/XKNsmvBGO4JXS+z1v2HobugDz4s1IeFXM3wZB44uczs+eazB5Q/ccdhQw==
 
-ts-toolbelt@8.4.0:
-  version "8.4.0"
-  resolved "https://registry.yarnpkg.com/ts-toolbelt/-/ts-toolbelt-8.4.0.tgz#af6e64b87be3e097fac63600ce9556e78542fa27"
-  integrity sha512-hnGJXIgC49ZuF5g5oDthoge8t4cvT0dYg2pYO5C6yV/HmUUy1koooU2U/5K2N+Uw++hcXQpJAToLRa+GRp28Sg==
+ts-toolbelt@9.1.7:
+  version "9.1.7"
+  resolved "https://registry.yarnpkg.com/ts-toolbelt/-/ts-toolbelt-9.1.7.tgz#1fbb1e8a8c9cd94dfab12f69ebe9e093f661387b"
+  integrity sha512-BwrbP039VcsgSaMsKxTok3YYjRurjjmYPcmkYtugkC/For0tgWW6LMis68vlu764nmZGJ+Oahj6/btW3omsQUA==
 
 tsconfig-paths@^3.9.0:
   version "3.9.0"

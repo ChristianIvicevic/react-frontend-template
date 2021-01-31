@@ -2275,13 +2275,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/classnames@npm:2.2.11":
-  version: 2.2.11
-  resolution: "@types/classnames@npm:2.2.11"
-  checksum: 5bbd4fd0f803a46424152ecc89cfb88464af4d655634de8a98ec54977b0b6d9da107e799c24a2b66f0133438e84bac51b2275134cf028edea749fb018f731e89
-  languageName: node
-  linkType: hard
-
 "@types/eslint@npm:^7.2.0":
   version: 7.2.4
   resolution: "@types/eslint@npm:7.2.4"
@@ -4554,13 +4547,6 @@ __metadata:
     isobject: ^3.0.0
     static-extend: ^0.1.1
   checksum: 6411679ad4d2bde81b62ad721d4771d108d5d8ef32805d10ebfa6f1d6bdcfd5cb6dfea5232b85221f079e42691c36cf2db05a5e76b87ba8f6deb37a2c23a4a41
-  languageName: node
-  linkType: hard
-
-"classnames@npm:2.2.6":
-  version: 2.2.6
-  resolution: "classnames@npm:2.2.6"
-  checksum: 490eaeca5931846737ffd33e472a701d268d5b8bc5717dd4cf108a127b06e86e05350e06799abbbe763a0e4c945b4217f6700b7ae00ddc703505682c370e5cf2
   languageName: node
   linkType: hard
 
@@ -12516,7 +12502,6 @@ fsevents@^1.2.7:
     "@testing-library/jest-dom": 5.11.9
     "@testing-library/react": 11.2.3
     "@testing-library/user-event": 12.6.2
-    "@types/classnames": 2.2.11
     "@types/jest": 26.0.20
     "@types/node": 14.14.22
     "@types/react": 17.0.0
@@ -12524,7 +12509,6 @@ fsevents@^1.2.7:
     "@types/styled-components": 5.1.7
     "@typescript-eslint/eslint-plugin": 4.14.1
     "@typescript-eslint/parser": 4.14.1
-    classnames: 2.2.6
     eslint: 7.19.0
     eslint-config-airbnb-typescript: 12.0.0
     eslint-config-prettier: 7.2.0

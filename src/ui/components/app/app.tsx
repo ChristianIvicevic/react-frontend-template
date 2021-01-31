@@ -4,12 +4,11 @@ import logo from 'ui/images/logo.svg';
 export const App = () => (
   <StyledApp>
     <Header>
-      <Logo src={logo} className="App-logo" alt="logo" />
+      <Logo src={logo} alt="logo" />
       <p>
         Edit <code>src/ui/components/app/app.tsx</code> and save to reload.
       </p>
       <Link
-        className="App-link"
         href="https://reactjs.org"
         target="_blank"
         rel="noopener noreferrer"

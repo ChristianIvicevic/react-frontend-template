@@ -2459,13 +2459,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:17.0.0":
+"@types/react@npm:*":
   version: 17.0.0
   resolution: "@types/react@npm:17.0.0"
   dependencies:
     "@types/prop-types": "*"
     csstype: ^3.0.2
   checksum: dcef2034b822a949c5528fa8fa3c64da654fdbb822bd8f0488c0084d84cadb8b90af68813a6c95153d4754079f50b1cab206552c7c20f6b67a26c3641383fe31
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:17.0.1":
+  version: 17.0.1
+  resolution: "@types/react@npm:17.0.1"
+  dependencies:
+    "@types/prop-types": "*"
+    csstype: ^3.0.2
+  checksum: 5b490728c5210ea20b20377dd8c69b12ba7283058788d431d8b35ff4d18d03aa3a0f0cc6fe83691c8b9707d3e7ee8e9aae4e50d3989e094c907030d045d0e4e2
   languageName: node
   linkType: hard
 
@@ -12504,7 +12514,7 @@ fsevents@^1.2.7:
     "@testing-library/user-event": 12.6.3
     "@types/jest": 26.0.20
     "@types/node": 14.14.22
-    "@types/react": 17.0.0
+    "@types/react": 17.0.1
     "@types/react-dom": 17.0.0
     "@types/styled-components": 5.1.7
     "@typescript-eslint/eslint-plugin": 4.14.2

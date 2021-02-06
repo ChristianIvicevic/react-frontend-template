@@ -3682,7 +3682,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:4.14.2":
+"@typescript-eslint/parser@npm:4.14.2, @typescript-eslint/parser@npm:^4.4.1":
   version: 4.14.2
   resolution: "@typescript-eslint/parser@npm:4.14.2"
   dependencies:
@@ -3696,23 +3696,6 @@ __metadata:
     typescript:
       optional: true
   checksum: 31f32fb0fe032f5fcedbfe7c81b76717599f1c67a2cf8c3c2eebe9bac450a6eea39124a64841a878136c900de6930096565150e28e295d09c0d35bf1a10f2ad9
-  languageName: node
-  linkType: hard
-
-"@typescript-eslint/parser@npm:4.4.1":
-  version: 4.4.1
-  resolution: "@typescript-eslint/parser@npm:4.4.1"
-  dependencies:
-    "@typescript-eslint/scope-manager": 4.4.1
-    "@typescript-eslint/types": 4.4.1
-    "@typescript-eslint/typescript-estree": 4.4.1
-    debug: ^4.1.1
-  peerDependencies:
-    eslint: ^5.0.0 || ^6.0.0 || ^7.0.0
-  peerDependenciesMeta:
-    typescript:
-      optional: true
-  checksum: 591300df982a224eaea1f977c2907e6fd5131afd846e54db619641702013ccf6194ba8ede60ac6af04b6d0730616e5c8963e5e3a780e343303ef8f5ca11ba746
   languageName: node
   linkType: hard
 
@@ -3743,16 +3726,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/scope-manager@npm:4.4.1":
-  version: 4.4.1
-  resolution: "@typescript-eslint/scope-manager@npm:4.4.1"
-  dependencies:
-    "@typescript-eslint/types": 4.4.1
-    "@typescript-eslint/visitor-keys": 4.4.1
-  checksum: 3499ac0d85831b18851f3b477898ebe11e84f085aea0ad69edb805ae55d3c6b03790e5a86e97f8642ba30e61aa22c73400a1c5dd46b84eac1a3ca686b21043c6
-  languageName: node
-  linkType: hard
-
 "@typescript-eslint/scope-manager@npm:4.5.0":
   version: 4.5.0
   resolution: "@typescript-eslint/scope-manager@npm:4.5.0"
@@ -3774,13 +3747,6 @@ __metadata:
   version: 4.14.2
   resolution: "@typescript-eslint/types@npm:4.14.2"
   checksum: 94b982402fc60603905199fe847cb579f8ced710489e6feb78ee3ee886ba86e4811f3d6f4a89150151c63f6bd8b492802f9fdb0975086f1dc78f0c3b87464f98
-  languageName: node
-  linkType: hard
-
-"@typescript-eslint/types@npm:4.4.1":
-  version: 4.4.1
-  resolution: "@typescript-eslint/types@npm:4.4.1"
-  checksum: efd95464f30dd9a76342913d07a6df59d998eff61a9e29dc5a1bc2ba44768b4f710a38422972d1b2ba5a741381a8456036f7c2da078b48d7a80d3472cf7b4add
   languageName: node
   linkType: hard
 
@@ -3829,25 +3795,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/typescript-estree@npm:4.4.1":
-  version: 4.4.1
-  resolution: "@typescript-eslint/typescript-estree@npm:4.4.1"
-  dependencies:
-    "@typescript-eslint/types": 4.4.1
-    "@typescript-eslint/visitor-keys": 4.4.1
-    debug: ^4.1.1
-    globby: ^11.0.1
-    is-glob: ^4.0.1
-    lodash: ^4.17.15
-    semver: ^7.3.2
-    tsutils: ^3.17.1
-  peerDependenciesMeta:
-    typescript:
-      optional: true
-  checksum: da51eefba54f5e408a8921818468640796f46c55405906c9d2d2e2d92a4b2c6f3d57cdde1435f9f7eaa1e5f76d252d981b3ebbb7df79d216f6e2481d515040c3
-  languageName: node
-  linkType: hard
-
 "@typescript-eslint/typescript-estree@npm:4.5.0":
   version: 4.5.0
   resolution: "@typescript-eslint/typescript-estree@npm:4.5.0"
@@ -3883,16 +3830,6 @@ __metadata:
     "@typescript-eslint/types": 4.14.2
     eslint-visitor-keys: ^2.0.0
   checksum: 03c92e600213a2fab8e9460b91fe9a7552eb6b85a64d1e61b8ac67dd3d3cf492f72318f72f701a6c0d45f8779f090e902cfdb4da56866816548baf1281e979e0
-  languageName: node
-  linkType: hard
-
-"@typescript-eslint/visitor-keys@npm:4.4.1":
-  version: 4.4.1
-  resolution: "@typescript-eslint/visitor-keys@npm:4.4.1"
-  dependencies:
-    "@typescript-eslint/types": 4.4.1
-    eslint-visitor-keys: ^2.0.0
-  checksum: 8590b4817662bdb96867317a4ce94993b0aaf7d2746a682009dcb93d90cdd248d3cbbe6a5efdc8ab343361dea1c9cbd1fc8b6992ae0ea220e48e52b477ebbfbf
   languageName: node
   linkType: hard
 
@@ -5327,6 +5264,16 @@ __metadata:
     union-value: ^1.0.0
     unset-value: ^1.0.0
   checksum: 3f362ba824453d4043df82655314503e591a09a1bcb909ffdfcc74deb0fe4e7c58e40de31293153b07aeb5545610a1d81bf49b67cff5d3dd084d389e5a4d4849
+  languageName: node
+  linkType: hard
+
+"call-bind@npm:^1.0.0":
+  version: 1.0.2
+  resolution: "call-bind@npm:1.0.2"
+  dependencies:
+    function-bind: ^1.1.1
+    get-intrinsic: ^1.0.2
+  checksum: 18cc6107a1f028247f2b505dae73ad1c63b737addfcd43ff75159f072c5c827300c1fb66f26ee0ec70fc2fdd005ce68d65c05a2a34b74bab08c3b1921954ada9
   languageName: node
   linkType: hard
 
@@ -7248,7 +7195,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-airbnb-base@npm:14.2.0, eslint-config-airbnb-base@npm:^14.2.0":
+"eslint-config-airbnb-base@npm:^14.2.0":
   version: 14.2.0
   resolution: "eslint-config-airbnb-base@npm:14.2.0"
   dependencies:
@@ -7262,33 +7209,45 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-airbnb-typescript@npm:12.0.0":
-  version: 12.0.0
-  resolution: "eslint-config-airbnb-typescript@npm:12.0.0"
+"eslint-config-airbnb-base@npm:^14.2.1":
+  version: 14.2.1
+  resolution: "eslint-config-airbnb-base@npm:14.2.1"
   dependencies:
-    "@typescript-eslint/parser": 4.4.1
-    eslint-config-airbnb: 18.2.0
-    eslint-config-airbnb-base: 14.2.0
-  peerDependencies:
-    "@typescript-eslint/eslint-plugin": ^4.4.1
-  checksum: 4ef4863e0d3942246dad89db757cd57f944e4e0e1ded47df602bec587ef73ebb244dffa7479852db98a56a9bd0487a0e4f1effb193d0aaf4407aab4a1af37043
-  languageName: node
-  linkType: hard
-
-"eslint-config-airbnb@npm:18.2.0":
-  version: 18.2.0
-  resolution: "eslint-config-airbnb@npm:18.2.0"
-  dependencies:
-    eslint-config-airbnb-base: ^14.2.0
-    object.assign: ^4.1.0
+    confusing-browser-globals: ^1.0.10
+    object.assign: ^4.1.2
     object.entries: ^1.1.2
   peerDependencies:
     eslint: ^5.16.0 || ^6.8.0 || ^7.2.0
-    eslint-plugin-import: ^2.21.2
-    eslint-plugin-jsx-a11y: ^6.3.0
-    eslint-plugin-react: ^7.20.0
+    eslint-plugin-import: ^2.22.1
+  checksum: ef1057740ed109bd6df0cddbd973e6ceee42551c6aa7f31c8cae53438011765b67b2fe47ad9f5e72593a8661abef4acef2478b0aae8861a5a89baa911715e611
+  languageName: node
+  linkType: hard
+
+"eslint-config-airbnb-typescript@npm:12.3.1":
+  version: 12.3.1
+  resolution: "eslint-config-airbnb-typescript@npm:12.3.1"
+  dependencies:
+    "@typescript-eslint/parser": ^4.4.1
+    eslint-config-airbnb: ^18.2.0
+    eslint-config-airbnb-base: ^14.2.0
+  checksum: 64b99568d8751ed11252cd29c6b963edd987a04aa1fb339337eac73a1e544caa3465a25f1dac18023b16b6510d7daef1ef5513e1c82ab26d798fb394cc6d4bd2
+  languageName: node
+  linkType: hard
+
+"eslint-config-airbnb@npm:^18.2.0":
+  version: 18.2.1
+  resolution: "eslint-config-airbnb@npm:18.2.1"
+  dependencies:
+    eslint-config-airbnb-base: ^14.2.1
+    object.assign: ^4.1.2
+    object.entries: ^1.1.2
+  peerDependencies:
+    eslint: ^5.16.0 || ^6.8.0 || ^7.2.0
+    eslint-plugin-import: ^2.22.1
+    eslint-plugin-jsx-a11y: ^6.4.1
+    eslint-plugin-react: ^7.21.5
     eslint-plugin-react-hooks: ^4 || ^3 || ^2.3.0 || ^1.7.0
-  checksum: 9cd736cafc339a4c3f5eb59f5d77fb98e986f06b07ff4fe78149c08bf2d202b097879cddceb812a36aeda99a099e0f2f1efe7a896943d6b191190c41eeb52835
+  checksum: 694d1833ffebe06ab0f3e1535c6772ae93da7992f5d6abbbfb319a207ea1f20d7ed2cc47ae3364bcf27737253a3f07f3ddd2c073ccbec5104540f4d024eec39e
   languageName: node
   linkType: hard
 
@@ -8486,6 +8445,17 @@ fsevents@^1.2.7:
   version: 2.0.5
   resolution: "get-caller-file@npm:2.0.5"
   checksum: 9dd9e1e2591039ee4c38c897365b904f66f1e650a8c1cb7b7db8ce667fa63e88cc8b13282b74df9d93de481114b3304a0487880d31cd926dfda6efe71455855d
+  languageName: node
+  linkType: hard
+
+"get-intrinsic@npm:^1.0.2":
+  version: 1.1.1
+  resolution: "get-intrinsic@npm:1.1.1"
+  dependencies:
+    function-bind: ^1.1.1
+    has: ^1.0.3
+    has-symbols: ^1.0.1
+  checksum: acf1506f25a32a194cfc5c19d33835756080d970eb6e29a8a3852380106df981acef7bb9ac2002689437235221f24bcbdc1e3532b9bcacd7ff3621091fafe607
   languageName: node
   linkType: hard
 
@@ -11674,6 +11644,18 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"object.assign@npm:^4.1.2":
+  version: 4.1.2
+  resolution: "object.assign@npm:4.1.2"
+  dependencies:
+    call-bind: ^1.0.0
+    define-properties: ^1.1.3
+    has-symbols: ^1.0.1
+    object-keys: ^1.1.1
+  checksum: a5855cc6db3f64606c41ceb97cb9847e667d8240889d771d65638244be1d35c2e2ccb5762f437bb76abf4e98ab4634a9d302380398121cee288a44dce5028f54
+  languageName: node
+  linkType: hard
+
 "object.entries@npm:^1.1.0, object.entries@npm:^1.1.2":
   version: 1.1.2
   resolution: "object.entries@npm:1.1.2"
@@ -13522,7 +13504,7 @@ fsevents@^1.2.7:
     "@typescript-eslint/eslint-plugin": 4.14.2
     "@typescript-eslint/parser": 4.14.2
     eslint: 7.19.0
-    eslint-config-airbnb-typescript: 12.0.0
+    eslint-config-airbnb-typescript: 12.3.1
     eslint-config-prettier: 7.2.0
     eslint-import-resolver-typescript: 2.3.0
     eslint-plugin-import: 2.22.1

@@ -3522,14 +3522,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/styled-components@npm:5.1.7":
-  version: 5.1.7
-  resolution: "@types/styled-components@npm:5.1.7"
+"@types/styled-components@npm:5.1.8":
+  version: 5.1.8
+  resolution: "@types/styled-components@npm:5.1.8"
   dependencies:
     "@types/hoist-non-react-statics": "*"
     "@types/react": "*"
     csstype: ^3.0.2
-  checksum: e0ce3949cbca71581288aac9b948c9943708f7ef20bdc030c8665f88f9e829b37ae7312979d9c949200aff99a704eb22e28f06b8c7bb50d4dbe1d01894762c99
+  checksum: 10802a078dc490bd2f5d7fb9ee5397b5ccd7a3f2df0fc7034eaaa5089ddbb021eef560b854facca528623a96d02872da5572f8991d581c5b9d905c6a0ffd9272
   languageName: node
   linkType: hard
 
@@ -13589,7 +13589,7 @@ fsevents@^1.2.7:
     "@types/node": 14.14.33
     "@types/react": 17.0.3
     "@types/react-dom": 17.0.2
-    "@types/styled-components": 5.1.7
+    "@types/styled-components": 5.1.8
     "@typescript-eslint/eslint-plugin": 4.17.0
     "@typescript-eslint/parser": 4.17.0
     eslint: 7.21.0

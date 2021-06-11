@@ -3192,9 +3192,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/jest-dom@npm:5.13.0":
-  version: 5.13.0
-  resolution: "@testing-library/jest-dom@npm:5.13.0"
+"@testing-library/jest-dom@npm:5.14.0":
+  version: 5.14.0
+  resolution: "@testing-library/jest-dom@npm:5.14.0"
   dependencies:
     "@babel/runtime": ^7.9.2
     "@types/testing-library__jest-dom": ^5.9.1
@@ -3202,9 +3202,10 @@ __metadata:
     chalk: ^3.0.0
     css: ^3.0.0
     css.escape: ^1.5.1
+    dom-accessibility-api: ^0.5.6
     lodash: ^4.17.15
     redent: ^3.0.0
-  checksum: 6ac64359265d96aa93114d98e651e8a24af0db51f01e858990bb2e90025fcacc00826abd4e8c333a7274b38113447bf13b52453ad692a2f4c731eba4781a8692
+  checksum: 371bdc67ff29f2dd499c1738b9c36f1a70192fc7e0d7bba7a097f6cbc26426c095fea54467e5811bee4d0bf118ddb2745eec7e469199452d8567c690c5b0613e
   languageName: node
   linkType: hard
 
@@ -6890,6 +6891,13 @@ __metadata:
   version: 0.5.4
   resolution: "dom-accessibility-api@npm:0.5.4"
   checksum: 39351d26a3732312f14411effef698204bf6c79a7d5eb0664441897541243f2cdf2e508aca52684ccf3b10df6708a6c265d1fde323eebcb8363a1093f5927b10
+  languageName: node
+  linkType: hard
+
+"dom-accessibility-api@npm:^0.5.6":
+  version: 0.5.6
+  resolution: "dom-accessibility-api@npm:0.5.6"
+  checksum: b579681083e683291df022bdf094dae2c7e39db0ff28f70ed2c8368eda203fe4c45bcf92f1c623ce4b746cb245f9a5dc9d176f1781d600b9218728d3a1d1580f
   languageName: node
   linkType: hard
 
@@ -14037,7 +14045,7 @@ fsevents@^1.2.7:
   version: 0.0.0-use.local
   resolution: "react-frontend-template@workspace:."
   dependencies:
-    "@testing-library/jest-dom": 5.13.0
+    "@testing-library/jest-dom": 5.14.0
     "@testing-library/react": 11.2.7
     "@testing-library/user-event": 13.1.9
     "@types/jest": 26.0.23
